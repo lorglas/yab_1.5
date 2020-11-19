@@ -1,0 +1,9 @@
+Installation instructions for Haiku GCC4 (no hybrid system like R1/Alpha1):
+
+Open a terminal and change into this directory.
+Type:
+unzip yab-1.5.zip -d /boot/apps
+ln -s /boot/apps/yab-1.5/bin/Haiku-gcc4/yab /boot/home/config/bin/yab
+ln -s /boot/apps/yab-1.5/yab-IDE/ide.yab /boot/home/config/be/Applications/yab-IDE
+
+Enjoy!
