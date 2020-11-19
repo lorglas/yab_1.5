@@ -1,0 +1,17 @@
+BUGS
+
+yab is not totally bug free. Some bugs are well-known (see list below). 
+
+Please report bugs that crashes yab itself. Note: An error message by 
+yab is probably a bug in your program and not a bug in yab! 
+
+When reporting bugs, please provide a small yab program demonstrating 
+the bug, so we can fix it ASAP.
+
+Known issues in yab 1.5:
+- textedit add does not harmonize with undo 
+- checkbox/button image might have a small memory leak
+- on exit yab might hang up when run in a terminal and TOOLTIP is used
+  (this is a race condition issue with the BubbleHelper class on R5 and 
+  maybe Haiku)
+- dropbox might be screwed up on Haiku
